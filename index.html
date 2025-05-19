@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>バイクレンタルショップ</title>
+  <style>
+    body { font-family: sans-serif; margin: 0; padding: 0; background: #fff; color: #222; }
+    header img { width: 100%; height: auto; display: block; }
+    main { padding: 1em; }
+    .section { margin-bottom: 2em; }
+    h2.subtitle {
+      background: #f2f2f2;
+      border-left: 6px solid #333;
+      padding: 0.5em 1em;
+      font-size: 1.2em;
+    }
+    .bike-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1em;
+      justify-content: center;
+    }
+    .bike-item {
+      width: calc(25% - 1em);
+      box-sizing: border-box;
+      text-align: center;
+    }
+    .bike-item img {
+      width: 100%;
+      height: auto;
+      max-width: 300px;
+      margin: 0 auto;
+    }
+    .sns-links img { width: 300px; height: auto; margin: 0.5em; }
+    .sns-links { text-align: center; }
+    iframe { width: 100%; height: 400px; border: none; }
+    .reservation-banner {
+      text-align: center;
+      margin-bottom: 1em;
+    }
+    .reservation-banner img {
+      max-width: 500px;
+      width: 100%;
+      height: auto;
+    }
+
+    @media (max-width: 899px) {
+      .bike-item { width: calc(50% - 1em); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="IMG_3690.JPG" alt="バイクレンタルショップのヘッダー">
+  </header>
+  <main>
+    <div class="reservation-banner">
+      <a href="https://docs.google.com/forms/d/e/XXXXXXXXXXXXXXX/viewform" target="_blank">
+        <img src="IMG_3688.PNG" alt="予約はこちら">
+      </a>
+    </div>
+
+    <section class="section">
+      <h2 class="subtitle">説明書きのタイトル</h2>
+      <p>豊富なバイクを取り揃え、1日単位でレンタル可能。初心者も安心、必要な装備も完備。ぜひバイクのある生活を体験してください。</p>
+    </section>
+
+    <section class="section">
+      <h2 class="subtitle">バイク一覧</h2>
+      <div class="bike-grid">
+        <div class="bike-item"><img src="IMG_3689.JPG" alt="bike1"><p>ヤマハ パッソル</p></div>
+        <div class="bike-item"><img src="IMG_3692.JPG" alt="bike2"><p>ピンク</p></div>
+        <div class="bike-item"><img src="IMG_3695.JPG" alt="bike3"><p>パッソル</p></div>
+        <div class="bike-item"><img src="IMG_3699.JPG" alt="bike4"><p>パッソル金ホイール</p></div>
+        <div class="bike-item"><img src="IMG_3694.JPG" alt="bike5"><p>パッソル２</p></div>
+        <div class="bike-item"><img src="IMG_3696.JPG" alt="bike6"><p>白</p></div>
+        <div class="bike-item"><img src="IMG_3698.JPG" alt="bike7"><p>緑</p></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="subtitle">カレンダー</h2>
+      <iframe src="https://calendar.google.com/calendar/embed?src=yourcalendar@gmail.com"></iframe>
+    </section>
+
+    <section class="section">
+      <h2 class="subtitle">レンタル</h2>
+      <p>バイク</p>
+      <p>ヘルメット</p>
+      <p>グローブ</p>
+    </section>
+
+    <section class="section">
+      <h2 class="subtitle">グッズ</h2>
+      <ul>
+        <li>Tシャツ</li>
+        <li>パーカー</li>
+        <li>帽子</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2 class="subtitle">アクセス</h2>
+      <p>〒251-0004 藤沢市藤が岡1丁目8-11</p>
+      <p>営業時間     10:30〜17:00  不定休</p>
+      <iframe src="https://www.google.com/maps/embed?..."></iframe>
+    </section>
+
+    <section class="section">
+      <h2 class="subtitle">問い合わせ</h2>
+      <div class="sns-links">
+        <a href="https://lin.ee/XXXXXX" target="_blank">
+          <img src="IMG_3685.JPG" alt="LINEで友だち追加">
+        </a>
+        <a href="https://www.instagram.com/XXXXXXX" target="_blank">
+          <img src="IMG_3686.JPG" alt="Instagramを見る">
+        </a>
+      </div>
+      <p>📧 メール：contact@example.com</p>
+      <p>予約:前日PM12:00までの予約制 当日予約については要相談</p>
+    </section>
+  </main>
+</body>
+</html>
